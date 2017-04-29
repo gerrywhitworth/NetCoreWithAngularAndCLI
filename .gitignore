@@ -3,3 +3,5 @@
 ################################################################################
 
 /CoreWithAngular2/wwwroot
+/CoreWithAngular2/bin/Debug/netcoreapp1.0
+/CoreWithAngular2/obj/Debug
