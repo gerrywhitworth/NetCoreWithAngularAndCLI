@@ -61,6 +61,14 @@ namespace CoreWithAngular2
 
                 );
 
+            app.UseMvc(config =>
+                config.MapRoute(
+                  name: "Default",
+                  template: "{controller}/{Action}/{id?}",
+                  defaults: new { controller = "App", action = "Index" }
+                )
+            );
+
             app.UseMvc();
         }
     }
